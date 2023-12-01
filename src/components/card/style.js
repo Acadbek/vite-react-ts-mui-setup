@@ -26,4 +26,13 @@ const Img = styled.img`
   width: 24px;
 `;
 
-export { CardWrapper, Img, RegisterButton };
+const Title = styled.h2`
+  color: var(--foundation-grey-grey-900, #151515);
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+`;
+
+export { CardWrapper, Img, RegisterButton, Title };
