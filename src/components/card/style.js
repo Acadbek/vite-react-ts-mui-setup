@@ -1,6 +1,13 @@
 import styled from "styled-components";
 
+const Wrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 const CardWrapper = styled.div`
+  text-align: center;
   max-width: 430px;
   height: 695px;
   padding: 48px 28px;
@@ -13,13 +20,21 @@ const RegisterButton = styled.button`
   display: flex;
   padding: 10px 24px;
   justify-content: center;
-  border: 1px solid var(--foundation-grey-grey-900, #151515);
+  border: 1px solid #151515;
   cursor: pointer;
   align-items: center;
   gap: 16px;
   align-items: center;
   border-radius: 4px;
+  margin-top: ${({ second }) => (second ? "16px" : "")};
+  margin-bottom: ${({ second }) => (second ? "36px" : "")};
 `;
+
+// const RegisterButton = styled.button.attrs({ tabIndex: 0 })`
+//   & + & {
+//     font-size: 11px;
+//   }
+// `;
 
 const Img = styled.img`
   height: 24px;
@@ -27,7 +42,7 @@ const Img = styled.img`
 `;
 
 const Title = styled.h2`
-  color: var(--foundation-grey-grey-900, #151515);
+  color: #151515;
   font-family: Mulish;
   font-size: 36px;
   font-style: normal;
@@ -35,4 +50,4 @@ const Title = styled.h2`
   line-height: normal;
 `;
 
-export { CardWrapper, Img, RegisterButton, Title };
+export { Wrapper, CardWrapper, Img, RegisterButton, Title };
