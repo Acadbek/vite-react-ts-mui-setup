@@ -1,0 +1,12 @@
+:root {
+  --background: #f2f2f2;
+}
+
+[data-theme="dark"] {
+  --background: #05010a;
+}
+
+body {
+  background-color: var(--background);
+  transition: all 0.1s ease-in-out;
+}

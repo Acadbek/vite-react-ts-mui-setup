@@ -1,0 +1,55 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "NodeNext",
+      "jsx": "react-jsx",
+      "sourceMap": true,
+      "noEmitOnError": true,
+      "moduleResolution": "node",
+      "rootDir": "src",
+      "baseUrl": "./src",
+      "paths": {
+        "@components/*": ["components/*"],
+        "@hooks/*": ["hooks/*"],
+        "@App/*": ["App/*"],
+        "@assets/*": ["assets/*"],
+        "@config/*": ["config/*"],
+        "@constants/*": ["constants/*"],
+        "@context/*": ["context/*"],
+        "@layouts/*": ["layouts/*"],
+        "@libs/*": ["libs/*"],
+        "@modules/*": ["modules/*"],
+        "@pages/*": ["pages/*"],
+        "@router/*": ["router/*"],
+        "@store/*": ["store/*"],
+        "@UI/*": ["UI/*"],
+        "@utils/*": ["utils/*"],
+        "@styles/*": ["styles/*"],
+        "@mui/styled-engine": ["./node_modules/@mui/styled-engine-sc"]
+      },
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "strict": true,
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "allowImportingTsExtensions": true,
+      "isolatedModules": true,
+      "lib": ["es6", "es2018", "esnext", "dom", "dom.iterable"],
+      "noEmit": true,
+    },
+    "watchOptions": {
+      "watchFile": "useFsEvents",
+      "watchDirectory": "useFsEvents",
+      "fallbackPolling": "dynamicPriority"
+    },
+    "include": [
+      "src",
+    ],
+    "exclude": [
+      "node_modules",
+      "dist",
+    ]
+  }
+  
