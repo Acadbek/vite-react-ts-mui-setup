@@ -5,6 +5,57 @@ This is a project bootstrapped with [`@vitejs/app`](https://vitejs.dev/guide/#sc
 - ⚡ blazing fast dev server and build
 - 🔗 route management added (`react-router-dom` configured)
 
+## Architecture
+
+```
+src/
+├── App/
+|   ├── App.tsx
+├── UI/
+|   ├── Buttons
+|   ├── Inputs
+|   ├── Modals
+├── api/
+|   ├── auth
+|   ├── instace
+|   ├── endpoints.ts
+├── assets/
+|   ├── img
+|   ├── svg
+|   ├── icons
+├── components/
+|   ├── Fields
+|   ├── Buttons
+|   ├── Footer
+|   ├── Header
+├── config
+├── context
+├── hooks
+|   ├── useBootstrap.ts
+|   ├── useMedia.ts
+|   ├── useSteps.ts
+|   ├── useUpload.ts
+├── interface
+├── layouts
+├── libs
+|   ├── formData.ts
+|   ├── format.ts
+|   ├── index.ts
+|   ├── localStorage.ts
+├── styles
+|   ├── base.css
+|   ├── main.css
+├── utils
+|   ├── addNotification.ts
+|   ├── dateFormat.ts
+|   ├── generals.ts
+|   ├── history.ts
+|   ├── intl.ts
+|   ├── upload.ts
+├── main.tsx
+```
+
+
 ## Getting Started
 
 You can either click [`Use this template`](https://github.com/Acadbek/vite-react-ts-mui-setup/) button on this repository and clone the repo or use npx degit like so:
