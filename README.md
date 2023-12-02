@@ -12,40 +12,40 @@ src/
 ├── App/
 |   ├── App.tsx
 ├── UI/
-|   ├── Buttons
-|   ├── Inputs
-|   ├── Modals
+|   ├── Buttons/
+|   ├── Inputs/
+|   ├── Modals/
 ├── api/
-|   ├── auth
-|   ├── instace
+|   ├── auth/
+|   ├── instace/
 |   ├── endpoints.ts
 ├── assets/
-|   ├── img
-|   ├── svg
-|   ├── icons
+|   ├── img/
+|   ├── svg/
+|   ├── icons/
 ├── components/
-|   ├── Fields
-|   ├── Buttons
-|   ├── Footer
-|   ├── Header
-├── config
-├── context
-├── hooks
+|   ├── Fields/
+|   ├── Buttons/
+|   ├── Footer/
+|   ├── Header/
+├── config/
+├── context/
+├── hooks/
 |   ├── useBootstrap.ts
 |   ├── useMedia.ts
 |   ├── useSteps.ts
 |   ├── useUpload.ts
-├── interface
-├── layouts
-├── libs
+├── interface/
+├── layouts/
+├── libs/
 |   ├── formData.ts
 |   ├── format.ts
 |   ├── index.ts
 |   ├── localStorage.ts
-├── styles
+├── styles/
 |   ├── base.css
 |   ├── main.css
-├── utils
+├── utils/
 |   ├── addNotification.ts
 |   ├── dateFormat.ts
 |   ├── generals.ts
