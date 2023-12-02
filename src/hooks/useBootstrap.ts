@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getLocalStorage } from "@/libs";
-import { setAuth, setToken, authSelector } from "@/store";
+import { getLocalStorage } from "@libs";
+import { setAuth, setToken, authSelector } from "@store";
 
 export default function useBootstrap() {
   const dispatch = useDispatch();

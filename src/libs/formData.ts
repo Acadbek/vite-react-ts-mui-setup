@@ -1,4 +1,4 @@
-export const formData = (details, id) => {
+export const formData = ( details: { [key: string]: string }, id?: string ): FormData => {
   const form = new FormData();
 
   for (let detail in details) {
