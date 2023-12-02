@@ -58,10 +58,16 @@ src/
 
 ## Getting Started
 
-You can either click [`Use this template`](https://github.com/Acadbek/vite-react-ts-mui-setup/) button on this repository and clone the repo or use npx degit like so:
+Clone the repository
 
 ```bash
+  git clone https://github.com/Acadbek/vite-react-ts-mui-setup
+```
 
+Install the dependencies
+
+```bash
+pnpm i
 ```
 
 Then, run the development server:
@@ -69,6 +75,10 @@ Then, run the development server:
 ```bash
 pnpm dev
 ```
+
+## Contributing
+
+Feel free to contribute to this project by submitting issues or pull requests.
 
 ## Deployment
 
