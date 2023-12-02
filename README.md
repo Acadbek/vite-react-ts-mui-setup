@@ -1,4 +1,4 @@
-<img src="https://og.sznm.dev/api/generate?heading=Vite%2C+React-TS%2C++Material+UI&text=React+Vite+template+with+Material+UI+and+TypeScript+setup&template=color&center=true" />
+<img src="https://og.sznm.dev/api/generate?heading=Vite%2C+React-TS%2C++Material+UI&text=React+Vite+template+with+Material+UI+and+TypeScript+setup&template=color&center=true&height=330" />
 
 This is a project bootstrapped with [`@vitejs/app`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) (`react-ts`), added with [Material UI](https://mui.com/) and [TypeScript](https://www.typescriptlang.org) setup.
 
