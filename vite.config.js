@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(), jsconfigPaths()],
   resolve: {
     alias: {
+      "@UI": path.resolve(__dirname, "./src/UI"),
       "@api": path.resolve(__dirname, "./src/api"),
       "@App": path.resolve(__dirname, "./src/App"),
       "@pages": path.resolve(__dirname, "./src/pages"),

@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 export const App = () => {
   return (
     <div>
-      <SignUpCard />
+      <h1>APP</h1>
     </div>
   );
 };
